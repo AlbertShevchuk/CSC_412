@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="site.css">
+
+ <style>
+        ul
+        {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+        }
+
+        li
+        {
+                float: left;
+        }
+
+        li a
+        {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+        }
+
+                li a:hover {
+                background-color: #111;
+        }
+        </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div").animate({left: '250px'});
+    });
+});
+</script> 
+	 </head>
+    <body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="current.html">News</a></li>
+  <li><a href="demo.php">PHP DEMO</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="game.html">Play a Game?</a></li>
+
+</ul>
+
+            <h1 class= "centered sansSerif">About</h1>
+            <div>
+                <p> Albert Shevchuk is a gainsta student at San Francisco State University.</p>
+            </div>
+	   
+	<button>Start Animation</button>
+
+	<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+   
+    </body>
+</html>
