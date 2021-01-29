@@ -1,0 +1,63 @@
+body{
+	margin:0;
+	background:#888;
+	font-family:Courier New;
+}
+
+header {
+	background: #777;
+	color: white;
+}
+
+h1,h3 {
+	margin:0;
+	display:inline;
+	color:#345
+}
+
+a {
+color: yellow;
+}
+
+p {
+	background: red;
+	padding: 10px;
+}
+
+nav ul{
+	margin: 0;
+	display:inline;
+}
+
+
+
+nav ul li{
+	background: black;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 4px 20px;
+}
+
+.secondary {
+	background: green;
+	color: orange;
+	padding: 20px;
+}
+
+.row {
+	
+}
+
+.col {
+	float: left;
+	background: red;
+	width: 31%;
+	margin:1%;
+	border-radius:10px;
+	color: pink;
+}
+
+h2{
+	clear:both;
+}
